@@ -1,0 +1,148 @@
+/* @font-face {
+  src: url("./assets/Poppins-Regular.ttf");
+  font-family: poppins-regular;
+}
+@font-face {
+  src: url("./assets/Montserrat-Regular.ttf");
+  font-family: montserrat-regular;
+} */
+.contactMainContainer {
+  background-color: #fff;
+  height: 85vh;
+  padding: 20px 30px 0px 30px;
+}
+
+.contactMainWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.contactLeftDivisionContainer {
+  margin-right: 0px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  border: 1px solid #ddd;
+}
+.contactSubmitButton {
+  height: 36px;
+  width: 110px;
+  background-color: #552e30;
+  color: #fff;
+  font-size: 14px;
+  border: 0px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.contactSubmitButton:focus {
+  outline: 0 !important;
+}
+
+.contactLabels {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  font-family: montserrat-regular;
+}
+.contactNameLabel {
+  padding-left: 5px;
+  height: 35px;
+  width: 400px;
+  font-family: poppins-regular;
+  border: 0px;
+  background-color: #f4f1f1;
+}
+.contactNameLabel:focus {
+  outline: 0;
+}
+.contactLabelsInput {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  font-family: montserrat-regular;
+  margin-bottom: 20px;
+  padding-left: 5px;
+}
+.contactNameLabelDescription {
+  padding-left: 5px;
+  height: 270px;
+  width: 720px;
+  font-family: poppins-regular;
+  border: 0px;
+  background-color: #f4f1f1;
+  resize: none;
+}
+.contactNameLabelDescription:focus {
+  outline: 0;
+}
+.contactLogoLabel1 {
+  font-family: montserrat-regular;
+  font-size: 14px;
+  color: #552e30;
+  padding-bottom: 35px;
+}
+.contactLogoLabel2 {
+  font-weight: bold;
+  color: gray;
+  font-family: poppins-regular;
+  font-size: 20px;
+}
+.contactLogoLabel3 {
+  font-weight: bold;
+  color: gray;
+  font-family: poppins-regular;
+  font-size: 12px;
+}
+.contactRightDivisionContainer {
+  margin-top: 20px;
+}
+.popup-title {
+  font-family: montserrat-regular;
+  font-size: 24px;
+  color: #333;
+}
+.popup-message {
+  margin-top: 20px;
+  font-family: poppins-regular;
+  font-size: 14px;
+  color: #666;
+}
+@media screen and (max-width: 1000px) {
+  .contactNameLabel {
+    width: 300px;
+  }
+  .contactNameLabelDescription {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .contactMainContainer {
+    height: 105vh;
+  }
+  .contactMainWrapper {
+    flex-wrap: wrap;
+  }
+  .contactLeftDivisionContainer {
+    border: 0px;
+    width: 100%;
+    margin: 0px;
+  }
+  .contactRightDivisionContainer {
+    margin-top: -20px;
+    width: 100%;
+  }
+  .contactLabelsInput,
+  .contactLabelsInput {
+    width: 100%;
+  }
+  .contactNameLabel,
+  .contactNameLabelDescription {
+    width: 100%;
+  }
+  .contactSubmitButton {
+    width: 100%;
+  }
+}

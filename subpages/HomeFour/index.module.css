@@ -1,0 +1,53 @@
+.home4MainContainer {
+    min-height: 70vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+  }
+  
+  .home2DeliveryContainer {
+    position: relative;
+    z-index: 999;
+    width: 100%;
+    background-color: #fff;
+  }
+  .home2DeliveryImage {
+    height: 100px;
+    flex-direction: row-reverse;
+    animation-name: delivery;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #fff;
+    background-image: '/Delivery.png';
+  }
+  @keyframes delivery {
+    0% {
+      margin-left: 100%;
+    }
+    100% {
+      margin-left: -30%;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .home2DeliveryImage {
+      height: 60px;
+      animation-duration: 4s;
+    }
+    .home2DeliveryContainer {
+      padding-top: 30px;
+    }
+  }
+  
+  @media screen and (min-width: 1250px) {
+    .home2DeliveryImage {
+      height: 100px;
+      animation-duration: 4s;
+    }
+  }
+  

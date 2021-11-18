@@ -1,0 +1,33 @@
+  .safecardMainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .safeCardHeaderText {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .safeCardDescriptionText {
+    font-family: Poppins;
+    font-size: 11px;
+    color: #555;
+    text-align: justify;
+    max-width: 350px;
+  }
+  .safecardImageContainer {
+    height: 100px;
+  }
+  @media screen and (max-width: 740px) {
+    .safecardImageContainer {
+      height: 50px;
+    }
+    .safeCardHeaderText {
+      font-size: 12px;
+    }
+    .safeCardDescriptionText {
+      font-size: 9px;
+    }
+  }
+  

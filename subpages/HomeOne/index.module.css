@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+.homeMainContainer {
+  height: 100vh;
+  background-color: #fff;
+  background-image: url("/homebg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+}
+.homeLeftContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+}
+.homeLeftWrapper {
+  text-align: center;
+}
+.homeTextContainer {
+  margin-top: 40px;
+}
+.homeTitleText {
+  font-family: Montserrat;
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+.homeContentText {
+  max-width: 600px;
+  margin-bottom: 40px;
+  font-family: Poppins;
+  font-size: 12px;
+}
+.homeTopviewFoodContainer {
+  height: 100vh;
+  background-color: #999;
+  background-image: url("/topview.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30vw;
+}
+.homeLogoContainer {
+  height: 150px;
+}
+.logoHome {
+  height: 150px;
+}
+@media screen and (max-width: 960px) {
+  .homeLogoContainer {
+    height: 100px;
+  }
+  .homeTitleText {
+    font-size: 24px;
+  }
+  .homeContentText {
+    font-size: 10px;
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .homeLogoContainer {
+    height: 80px;
+  }
+  .homeTitleText {
+    font-size: 20px;
+  }
+  .homeContentText {
+    font-size: 8px;
+    max-width: 90vw;
+  }
+  .homeTopviewFoodContainer {
+    display: none;
+  }
+}

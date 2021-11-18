@@ -1,0 +1,44 @@
+/* @font-face {
+    src: url("./assets/Poppins-Regular.ttf");
+    font-family: poppins-regular;
+  }
+  @font-face {
+    src: url("./assets/Montserrat-Regular.ttf");
+    font-family: montserrat-regular;
+  } */
+
+.boilerMain {
+  min-height: 80vh;
+}
+.boilerTitleBackground {
+  height: 40vh;
+  background-color: #fccf08;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boilerHeader {
+  color: #fff;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.faqQuestion {
+  font-family: montserrat-regular;
+  font-size: 20px;
+  color: #333;
+  margin-top: 45px;
+}
+.faqAnswer {
+  margin-top: 5px;
+  font-family: poppins-regular;
+  font-size: 12px;
+  color: #666;
+  width: 80%;
+}
+
+@media screen and (max-width: 700px) {
+  .faqAnswer {
+    width: 100%;
+  }
+}

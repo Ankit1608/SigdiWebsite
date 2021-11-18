@@ -1,0 +1,11 @@
+.nonceMainContainer {
+    background-color: #fff;
+    height: 70vh;
+  }
+  @media screen and (max-width: 960px) {
+    .nonceMainContainer {
+      background-color: #fff;
+      height: 45vh;
+    }
+  }
+  

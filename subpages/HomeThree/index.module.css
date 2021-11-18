@@ -1,0 +1,12 @@
+  .home3MainContainer {
+    min-height: 80vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+    flex-wrap: wrap;
+    padding: 50px 40px;
+  }
+  
